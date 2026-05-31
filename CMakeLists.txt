@@ -3,11 +3,9 @@ project(ISP_Pipeline)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(isp_pipeline main.cpp)[
-    {
-        "type": "command",
-        "details": {
-            "key": "C_Cpp.InstallCompiler"
-        }
-    }
-]
+include_directories(include)
+
+add_executable(isp_pipeline 
+    main.cpp
+    src/Image.cpp
+)
