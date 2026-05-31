@@ -10,3 +10,13 @@
 
 ## 進度
 - [x] Day 1: 環境建立、Git 設定
+- [x] Day 2: 多檔案 CMake 專案、Image class 實作
+
+## 專案結構
+isp-pipeline-cpp/
+├── CMakeLists.txt
+├── main.cpp
+├── include/
+│   └── image.h
+└── src/
+    └── image.cpp
