@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/isp_pipeline.dir/main.cpp.obj"
   "CMakeFiles/isp_pipeline.dir/main.cpp.obj.d"
-  "CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj"
-  "CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj.d"
+  "CMakeFiles/isp_pipeline.dir/src/image.cpp.obj"
+  "CMakeFiles/isp_pipeline.dir/src/image.cpp.obj.d"
   "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj"
   "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj.d"
   "isp_pipeline.exe"

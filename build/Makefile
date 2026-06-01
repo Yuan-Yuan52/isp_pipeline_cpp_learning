@@ -152,29 +152,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Image.obj: src/Image.cpp.obj
-.PHONY : src/Image.obj
+src/image.obj: src/image.cpp.obj
+.PHONY : src/image.obj
 
 # target to build an object file
-src/Image.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj
-.PHONY : src/Image.cpp.obj
+src/image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/image.cpp.obj
+.PHONY : src/image.cpp.obj
 
-src/Image.i: src/Image.cpp.i
-.PHONY : src/Image.i
+src/image.i: src/image.cpp.i
+.PHONY : src/image.i
 
 # target to preprocess a source file
-src/Image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/Image.cpp.i
-.PHONY : src/Image.cpp.i
+src/image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/image.cpp.i
+.PHONY : src/image.cpp.i
 
-src/Image.s: src/Image.cpp.s
-.PHONY : src/Image.s
+src/image.s: src/image.cpp.s
+.PHONY : src/image.s
 
 # target to generate assembly for a file
-src/Image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/Image.cpp.s
-.PHONY : src/Image.cpp.s
+src/image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/image.cpp.s
+.PHONY : src/image.cpp.s
 
 src/raw_image.obj: src/raw_image.cpp.obj
 .PHONY : src/raw_image.obj
@@ -212,9 +212,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/Image.obj
-	@echo ... src/Image.i
-	@echo ... src/Image.s
+	@echo ... src/image.obj
+	@echo ... src/image.i
+	@echo ... src/image.s
 	@echo ... src/raw_image.obj
 	@echo ... src/raw_image.i
 	@echo ... src/raw_image.s

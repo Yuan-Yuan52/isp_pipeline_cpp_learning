@@ -171,7 +171,7 @@ CMakeFiles/isp_pipeline.dir/main.cpp.obj: C:/Users/user/program/C++_learning/mai
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h
 
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj: C:/Users/user/program/C++_learning/src/Image.cpp \
+CMakeFiles/isp_pipeline.dir/src/image.cpp.obj: C:/Users/user/program/C++_learning/src/image.cpp \
   C:/Users/user/program/C++_learning/include/Image.h \
   C:/mingw64/include/c++/16.1.0/backward/binders.h \
   C:/mingw64/include/c++/16.1.0/bit \
@@ -849,7 +849,7 @@ C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
-C:/Users/user/program/C++_learning/src/Image.cpp:
+C:/Users/user/program/C++_learning/src/image.cpp:
 
 C:/Users/user/program/C++_learning/src/raw_image.cpp:
 

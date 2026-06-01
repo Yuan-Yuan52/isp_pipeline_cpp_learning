@@ -1,22 +1,19 @@
 #include <iostream>
-#include "Image.h"
-#include "raw_image.h"
+#include <opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
 
 int main() {
-    // 建立一張 8x8 的圖片
-    Image img(8, 8, 3);
+    // 建立一張 300x300 的黑色圖片
+    Mat img = Mat::zeros(300, 300, CV_8UC3);
 
-    // 填滿紅色
-    img.fill(255, 0, 0);
-    std::cout << "Original image:" << std::endl;
-    img.printInfo();
-    std::cout << "Pixel (0,0) R: " << (int)img.getPixel(0, 0, 0) << std::endl;
+    // 畫一個白色矩形
+    rectangle(img, Point(50, 50), Point(250, 250), Scalar(255, 255, 255), 2);
 
-    // 裁切左上角 4x4
-    Image cropped = img.crop(0, 0, 4, 4);
-    std::cout << "\nCropped image:" << std::endl;
-    cropped.printInfo();
-    std::cout << "Pixel (0,0) R: " << (int)cropped.getPixel(0, 0, 0) << std::endl;
+    // 顯示圖片
+    imshow("Test", img);
+    waitKey(0);
 
     return 0;
 }

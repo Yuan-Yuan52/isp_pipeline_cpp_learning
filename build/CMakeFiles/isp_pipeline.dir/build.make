@@ -86,20 +86,20 @@ CMakeFiles/isp_pipeline.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/main.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\main.cpp -o CMakeFiles\isp_pipeline.dir\main.cpp.s
 
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj: C:/Users/user/program/C++_learning/src/Image.cpp
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj: CMakeFiles/isp_pipeline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj -MF CMakeFiles\isp_pipeline.dir\src\Image.cpp.obj.d -o CMakeFiles\isp_pipeline.dir\src\Image.cpp.obj -c C:\Users\user\program\C++_learning\src\Image.cpp
+CMakeFiles/isp_pipeline.dir/src/image.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
+CMakeFiles/isp_pipeline.dir/src/image.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
+CMakeFiles/isp_pipeline.dir/src/image.cpp.obj: C:/Users/user/program/C++_learning/src/image.cpp
+CMakeFiles/isp_pipeline.dir/src/image.cpp.obj: CMakeFiles/isp_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/isp_pipeline.dir/src/image.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/isp_pipeline.dir/src/image.cpp.obj -MF CMakeFiles\isp_pipeline.dir\src\image.cpp.obj.d -o CMakeFiles\isp_pipeline.dir\src\image.cpp.obj -c C:\Users\user\program\C++_learning\src\image.cpp
 
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/isp_pipeline.dir/src/Image.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\program\C++_learning\src\Image.cpp > CMakeFiles\isp_pipeline.dir\src\Image.cpp.i
+CMakeFiles/isp_pipeline.dir/src/image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/isp_pipeline.dir/src/image.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\program\C++_learning\src\image.cpp > CMakeFiles\isp_pipeline.dir\src\image.cpp.i
 
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/Image.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\Image.cpp -o CMakeFiles\isp_pipeline.dir\src\Image.cpp.s
+CMakeFiles/isp_pipeline.dir/src/image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/image.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\image.cpp -o CMakeFiles\isp_pipeline.dir\src\image.cpp.s
 
 CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
 CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
@@ -119,16 +119,31 @@ CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.s: cmake_force
 # Object files for target isp_pipeline
 isp_pipeline_OBJECTS = \
 "CMakeFiles/isp_pipeline.dir/main.cpp.obj" \
-"CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj" \
+"CMakeFiles/isp_pipeline.dir/src/image.cpp.obj" \
 "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj"
 
 # External object files for target isp_pipeline
 isp_pipeline_EXTERNAL_OBJECTS =
 
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/main.cpp.obj
-isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj
+isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/image.cpp.obj
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/build.make
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_gapi4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_highgui4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_ml4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_objdetect4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_photo4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_stitching4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_video4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_videoio4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_imgcodecs4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_dnn4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_calib3d4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_features2d4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_flann4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_imgproc4100.dll.a
+isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_core4100.dll.a
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/linkLibs.rsp
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/objects1.rsp
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/link.txt

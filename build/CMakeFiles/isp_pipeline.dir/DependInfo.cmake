@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/user/program/C++_learning/main.cpp" "CMakeFiles/isp_pipeline.dir/main.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/main.cpp.obj.d"
-  "C:/Users/user/program/C++_learning/src/Image.cpp" "CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj.d"
+  "C:/Users/user/program/C++_learning/src/image.cpp" "CMakeFiles/isp_pipeline.dir/src/image.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/image.cpp.obj.d"
   "C:/Users/user/program/C++_learning/src/raw_image.cpp" "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj.d"
   )
 

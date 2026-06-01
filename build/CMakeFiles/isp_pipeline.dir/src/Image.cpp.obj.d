@@ -1,5 +1,5 @@
-CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj: \
- C:\Users\user\program\C++_learning\src\Image.cpp \
+CMakeFiles/isp_pipeline.dir/src/image.cpp.obj: \
+ C:\Users\user\program\C++_learning\src\image.cpp \
  C:/Users/user/program/C++_learning/include/Image.h \
  C:/mingw64/include/c++/16.1.0/vector \
  C:/mingw64/include/c++/16.1.0/bits/requires_hosted.h \

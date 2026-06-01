@@ -20,6 +20,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -43,6 +45,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.3.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.3/CMakeRCCompiler.cmake"
   "CMakeFiles/4.3.3/CMakeSystem.cmake"
+  "C:/opencv_final/OpenCVConfig-version.cmake"
+  "C:/opencv_final/OpenCVConfig.cmake"
+  "C:/opencv_final/x64/mingw/lib/OpenCVConfig.cmake"
+  "C:/opencv_final/x64/mingw/lib/OpenCVModules-release.cmake"
+  "C:/opencv_final/x64/mingw/lib/OpenCVModules.cmake"
   )
 
 # The corresponding makefile is:
