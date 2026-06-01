@@ -8,4 +8,5 @@ include_directories(include)
 add_executable(isp_pipeline 
     main.cpp
     src/Image.cpp
+    src/raw_image.cpp
 )

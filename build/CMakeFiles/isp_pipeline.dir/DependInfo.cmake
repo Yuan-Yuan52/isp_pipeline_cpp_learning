@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/user/program/C++_learning/main.cpp" "CMakeFiles/isp_pipeline.dir/main.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/main.cpp.obj.d"
   "C:/Users/user/program/C++_learning/src/Image.cpp" "CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/Image.cpp.obj.d"
+  "C:/Users/user/program/C++_learning/src/raw_image.cpp" "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

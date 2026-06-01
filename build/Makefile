@@ -176,6 +176,30 @@ src/Image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/Image.cpp.s
 .PHONY : src/Image.cpp.s
 
+src/raw_image.obj: src/raw_image.cpp.obj
+.PHONY : src/raw_image.obj
+
+# target to build an object file
+src/raw_image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj
+.PHONY : src/raw_image.cpp.obj
+
+src/raw_image.i: src/raw_image.cpp.i
+.PHONY : src/raw_image.i
+
+# target to preprocess a source file
+src/raw_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.i
+.PHONY : src/raw_image.cpp.i
+
+src/raw_image.s: src/raw_image.cpp.s
+.PHONY : src/raw_image.s
+
+# target to generate assembly for a file
+src/raw_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.s
+.PHONY : src/raw_image.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... src/Image.obj
 	@echo ... src/Image.i
 	@echo ... src/Image.s
+	@echo ... src/raw_image.obj
+	@echo ... src/raw_image.i
+	@echo ... src/raw_image.s
 .PHONY : help
 
 
