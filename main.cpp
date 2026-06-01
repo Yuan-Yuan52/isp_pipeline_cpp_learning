@@ -3,14 +3,9 @@
 #include "raw_image.h"
 
 int main() {
-    RawImage raw_img(1920, 1080, "RGGB", 1024);
-    raw_img.printRawInfo();
-
-    raw_img.setPixel(0, 0, 0, 255);   //R=255
-    raw_img.setPixel(0, 0, 1, 128);   //G=128
-    raw_img.setPixel(0, 0, 2, 0);    //B=0
-
-    std::cout << "Pixel (0,0) R: " << (int)raw_img.getPixel(0, 0, 0) << std::endl;
+    Image* img = new RawImage(1920, 1080, "RGGB", 64);
+    img->printInfo();  // 會呼叫哪個版本？
+    delete img;
     //std::cout << "Pixel (0,0) G: " << (int)img.getPixel(0, 0, 1) << std::endl;
     //std::cout << "Pixel (0,0) B: " << (int)img.getPixel(0, 0, 2) << std::endl;
 

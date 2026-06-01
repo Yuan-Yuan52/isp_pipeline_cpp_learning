@@ -8,5 +8,6 @@ public:
     int black_level;            // 黑電位值
 
     RawImage(int w, int h, std::string pattern, int bl);
-    void printRawInfo();
+    void printRawInfo() ;
+    void printInfo() override ;
 };

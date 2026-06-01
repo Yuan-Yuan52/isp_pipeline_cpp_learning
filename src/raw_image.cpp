@@ -9,7 +9,13 @@ RawImage::RawImage(int w, int h, std::string pattern , int bl ) :Image (w,h,1){
 }
 
 void RawImage::printRawInfo() {
-    printInfo();
-    cout << "Bayer Pattern: " << bayer_pattern << endl;
+    Image::printInfo();
+    cout << "Bayer54 Pattern: " << bayer_pattern << endl;
+    cout << "Black Level: " << black_level << endl;
+}
+
+void RawImage::printInfo() {
+    Image::printInfo();
+    cout << "Bayer32 Pattern: " << bayer_pattern << endl;
     cout << "Black Level: " << black_level << endl;
 }
