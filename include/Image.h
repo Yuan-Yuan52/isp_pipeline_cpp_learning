@@ -14,5 +14,8 @@ public:
     virtual void printInfo();
     void setPixel(int x, int y, int channel, unsigned char value);
     unsigned char getPixel(int x, int y, int channel);
+    void fill (unsigned char r , unsigned char g, unsigned char b);
+    Image crop (int x , int y , int w , int h);
+
 };
 

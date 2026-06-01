@@ -29,3 +29,26 @@ void Image::setPixel(int x, int y, int ch, unsigned char value) {
 unsigned char Image::getPixel(int x, int y, int ch) {
     return data [ (y * width + x) * channels + ch ];
 }
+
+void Image::fill(unsigned char r, unsigned char g, unsigned char b) {
+    for (int y = 0; y < height; y++) {
+        for (int x = 0; x < width; x++) {
+            setPixel(x, y, 0, r);
+            setPixel(x, y, 1, g);
+            setPixel(x, y, 2, b);
+        }
+    }
+}
+
+Image Image::crop(int x, int y, int w, int h) {
+    Image result(w, h, channels);
+    for (int j = 0; j < h; j++) {
+        for (int i = 0; i < w; i++) {
+            for (int c = 0; c < channels; c++) {
+                unsigned char value = getPixel(x + i, y + j, c);
+                result.setPixel(i, j, c, value);
+            }
+        }
+    }
+    return result;
+}

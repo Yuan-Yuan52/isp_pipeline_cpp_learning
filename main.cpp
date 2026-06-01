@@ -3,20 +3,20 @@
 #include "raw_image.h"
 
 int main() {
-    Image* img = new RawImage(1920, 1080, "RGGB", 64);
-    img->printInfo();  // 會呼叫哪個版本？
-    delete img;
-    //std::cout << "Pixel (0,0) G: " << (int)img.getPixel(0, 0, 1) << std::endl;
-    //std::cout << "Pixel (0,0) B: " << (int)img.getPixel(0, 0, 2) << std::endl;
+    // 建立一張 8x8 的圖片
+    Image img(8, 8, 3);
 
-    Image img2(2,3,3);
-    unsigned char * ptr = img2.data.data();
+    // 填滿紅色
+    img.fill(255, 0, 0);
+    std::cout << "Original image:" << std::endl;
+    img.printInfo();
+    std::cout << "Pixel (0,0) R: " << (int)img.getPixel(0, 0, 0) << std::endl;
 
-    for (int y = 0; y < img2.height; y++) {
-        for (int x = 0; x < img2.width; x++) {
-            ptr[(y * img2.width + x) * img2.channels + 0] = 255;  // R}
-            std::cout << "(" << x << "," << y << ") R: " << (int)img2.getPixel(x, y, 0) << std::endl;   
-        }
-    }
+    // 裁切左上角 4x4
+    Image cropped = img.crop(0, 0, 4, 4);
+    std::cout << "\nCropped image:" << std::endl;
+    cropped.printInfo();
+    std::cout << "Pixel (0,0) R: " << (int)cropped.getPixel(0, 0, 0) << std::endl;
+
     return 0;
 }
