@@ -1,47 +1,26 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
+#include <libraw/libraw.h>
 
 using namespace std;
 using namespace cv;
 
 int main() {
+    LibRaw raw;
 
-    Mat img = imread("C:\\Users\\user\\Desktop\\IMG_2024.jpg");
-    if (img.empty()){
-        std::cout << "Could not read the image" << std::endl;
+    const char* filename = "test.ARW";
+
+    if (raw.open_file(filename) < 0) {
+        std::cout << "Could not open the RAW file" << std::endl;
         return -1;
     }
-    resize(img , img , Size(640,480));
 
-    //邊緣偵測
-    Mat Edge ;
-    Canny (img , Edge , 50 , 150 );
-
-    //定義kernel
-    Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3 ));
-
-    //eRosion
-    Mat Erosion ;
-    erode (Edge , Erosion ,kernel);
-
-    //Diation 
-    Mat Dilation ;
-    dilate (Edge , Dilation , kernel);
-
-    // Opening 開運算
-    Mat opened;
-    morphologyEx( Edge, opened, MORPH_OPEN, kernel);
-
-    // Closing 閉運算
-    Mat closed;
-    morphologyEx(Edge, closed, MORPH_CLOSE, kernel);
-    
-    imshow("Original Image", img);
-    imshow("Edge Detection", Edge);
-    imshow("Erosion", Erosion);
-    imshow("Dilation", Dilation);
-    imshow("Opened", opened);
-    imshow("Closed", closed);
+        // 印出基本資訊
+    cout << "Camera: " << raw.imgdata.idata.make << " " 
+        << raw.imgdata.idata.model << endl;
+    cout << "Width: " << raw.imgdata.sizes.width << endl;
+    cout << "Height: " << raw.imgdata.sizes.height << endl;
+    cout << "Colors: " << raw.imgdata.idata.colors << endl;
 
     waitKey(0); 
 
