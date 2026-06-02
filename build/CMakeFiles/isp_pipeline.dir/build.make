@@ -116,11 +116,91 @@ CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\raw_image.cpp -o CMakeFiles\isp_pipeline.dir\src\raw_image.cpp.s
 
+CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
+CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
+CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj: C:/Users/user/program/C++_learning/src/isp_pipeline.cpp
+CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj: CMakeFiles/isp_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj -MF CMakeFiles\isp_pipeline.dir\src\isp_pipeline.cpp.obj.d -o CMakeFiles\isp_pipeline.dir\src\isp_pipeline.cpp.obj -c C:\Users\user\program\C++_learning\src\isp_pipeline.cpp
+
+CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\program\C++_learning\src\isp_pipeline.cpp > CMakeFiles\isp_pipeline.dir\src\isp_pipeline.cpp.i
+
+CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\isp_pipeline.cpp -o CMakeFiles\isp_pipeline.dir\src\isp_pipeline.cpp.s
+
+CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
+CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
+CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj: C:/Users/user/program/C++_learning/src/modules/black_level.cpp
+CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj: CMakeFiles/isp_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj -MF CMakeFiles\isp_pipeline.dir\src\modules\black_level.cpp.obj.d -o CMakeFiles\isp_pipeline.dir\src\modules\black_level.cpp.obj -c C:\Users\user\program\C++_learning\src\modules\black_level.cpp
+
+CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\program\C++_learning\src\modules\black_level.cpp > CMakeFiles\isp_pipeline.dir\src\modules\black_level.cpp.i
+
+CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\modules\black_level.cpp -o CMakeFiles\isp_pipeline.dir\src\modules\black_level.cpp.s
+
+CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
+CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
+CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj: C:/Users/user/program/C++_learning/src/modules/white_balance.cpp
+CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj: CMakeFiles/isp_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj -MF CMakeFiles\isp_pipeline.dir\src\modules\white_balance.cpp.obj.d -o CMakeFiles\isp_pipeline.dir\src\modules\white_balance.cpp.obj -c C:\Users\user\program\C++_learning\src\modules\white_balance.cpp
+
+CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\program\C++_learning\src\modules\white_balance.cpp > CMakeFiles\isp_pipeline.dir\src\modules\white_balance.cpp.i
+
+CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\modules\white_balance.cpp -o CMakeFiles\isp_pipeline.dir\src\modules\white_balance.cpp.s
+
+CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
+CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
+CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj: C:/Users/user/program/C++_learning/src/modules/demosaic.cpp
+CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj: CMakeFiles/isp_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj -MF CMakeFiles\isp_pipeline.dir\src\modules\demosaic.cpp.obj.d -o CMakeFiles\isp_pipeline.dir\src\modules\demosaic.cpp.obj -c C:\Users\user\program\C++_learning\src\modules\demosaic.cpp
+
+CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\program\C++_learning\src\modules\demosaic.cpp > CMakeFiles\isp_pipeline.dir\src\modules\demosaic.cpp.i
+
+CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\modules\demosaic.cpp -o CMakeFiles\isp_pipeline.dir\src\modules\demosaic.cpp.s
+
+CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj: CMakeFiles/isp_pipeline.dir/flags.make
+CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj: CMakeFiles/isp_pipeline.dir/includes_CXX.rsp
+CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj: C:/Users/user/program/C++_learning/src/modules/noise_reduction.cpp
+CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj: CMakeFiles/isp_pipeline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj -MF CMakeFiles\isp_pipeline.dir\src\modules\noise_reduction.cpp.obj.d -o CMakeFiles\isp_pipeline.dir\src\modules\noise_reduction.cpp.obj -c C:\Users\user\program\C++_learning\src\modules\noise_reduction.cpp
+
+CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\program\C++_learning\src\modules\noise_reduction.cpp > CMakeFiles\isp_pipeline.dir\src\modules\noise_reduction.cpp.i
+
+CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\program\C++_learning\src\modules\noise_reduction.cpp -o CMakeFiles\isp_pipeline.dir\src\modules\noise_reduction.cpp.s
+
 # Object files for target isp_pipeline
 isp_pipeline_OBJECTS = \
 "CMakeFiles/isp_pipeline.dir/main.cpp.obj" \
 "CMakeFiles/isp_pipeline.dir/src/image.cpp.obj" \
-"CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj"
+"CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj" \
+"CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj" \
+"CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj" \
+"CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj" \
+"CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj" \
+"CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj"
 
 # External object files for target isp_pipeline
 isp_pipeline_EXTERNAL_OBJECTS =
@@ -128,6 +208,11 @@ isp_pipeline_EXTERNAL_OBJECTS =
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/main.cpp.obj
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/image.cpp.obj
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj
+isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj
+isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj
+isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj
+isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj
+isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/build.make
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_gapi4100.dll.a
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_highgui4100.dll.a
@@ -137,6 +222,7 @@ isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_photo4100.dll.a
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_stitching4100.dll.a
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_video4100.dll.a
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_videoio4100.dll.a
+isp_pipeline.exe: C:/LibRaw/LibRaw-0.22.1/lib/libraw.a
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_imgcodecs4100.dll.a
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_dnn4100.dll.a
 isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_calib3d4100.dll.a
@@ -147,7 +233,7 @@ isp_pipeline.exe: C:/opencv_final/x64/mingw/lib/libopencv_core4100.dll.a
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/linkLibs.rsp
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/objects1.rsp
 isp_pipeline.exe: CMakeFiles/isp_pipeline.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable isp_pipeline.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\user\program\C++_learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable isp_pipeline.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\isp_pipeline.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

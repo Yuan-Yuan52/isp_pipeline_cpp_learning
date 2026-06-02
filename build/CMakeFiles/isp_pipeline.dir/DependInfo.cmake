@@ -10,6 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/user/program/C++_learning/main.cpp" "CMakeFiles/isp_pipeline.dir/main.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/main.cpp.obj.d"
   "C:/Users/user/program/C++_learning/src/image.cpp" "CMakeFiles/isp_pipeline.dir/src/image.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/image.cpp.obj.d"
+  "C:/Users/user/program/C++_learning/src/isp_pipeline.cpp" "CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj.d"
+  "C:/Users/user/program/C++_learning/src/modules/black_level.cpp" "CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj.d"
+  "C:/Users/user/program/C++_learning/src/modules/demosaic.cpp" "CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj.d"
+  "C:/Users/user/program/C++_learning/src/modules/noise_reduction.cpp" "CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj.d"
+  "C:/Users/user/program/C++_learning/src/modules/white_balance.cpp" "CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj.d"
   "C:/Users/user/program/C++_learning/src/raw_image.cpp" "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj" "gcc" "CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj.d"
   )
 

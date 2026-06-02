@@ -176,6 +176,126 @@ src/image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/image.cpp.s
 .PHONY : src/image.cpp.s
 
+src/isp_pipeline.obj: src/isp_pipeline.cpp.obj
+.PHONY : src/isp_pipeline.obj
+
+# target to build an object file
+src/isp_pipeline.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj
+.PHONY : src/isp_pipeline.cpp.obj
+
+src/isp_pipeline.i: src/isp_pipeline.cpp.i
+.PHONY : src/isp_pipeline.i
+
+# target to preprocess a source file
+src/isp_pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.i
+.PHONY : src/isp_pipeline.cpp.i
+
+src/isp_pipeline.s: src/isp_pipeline.cpp.s
+.PHONY : src/isp_pipeline.s
+
+# target to generate assembly for a file
+src/isp_pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.s
+.PHONY : src/isp_pipeline.cpp.s
+
+src/modules/black_level.obj: src/modules/black_level.cpp.obj
+.PHONY : src/modules/black_level.obj
+
+# target to build an object file
+src/modules/black_level.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj
+.PHONY : src/modules/black_level.cpp.obj
+
+src/modules/black_level.i: src/modules/black_level.cpp.i
+.PHONY : src/modules/black_level.i
+
+# target to preprocess a source file
+src/modules/black_level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.i
+.PHONY : src/modules/black_level.cpp.i
+
+src/modules/black_level.s: src/modules/black_level.cpp.s
+.PHONY : src/modules/black_level.s
+
+# target to generate assembly for a file
+src/modules/black_level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.s
+.PHONY : src/modules/black_level.cpp.s
+
+src/modules/demosaic.obj: src/modules/demosaic.cpp.obj
+.PHONY : src/modules/demosaic.obj
+
+# target to build an object file
+src/modules/demosaic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj
+.PHONY : src/modules/demosaic.cpp.obj
+
+src/modules/demosaic.i: src/modules/demosaic.cpp.i
+.PHONY : src/modules/demosaic.i
+
+# target to preprocess a source file
+src/modules/demosaic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.i
+.PHONY : src/modules/demosaic.cpp.i
+
+src/modules/demosaic.s: src/modules/demosaic.cpp.s
+.PHONY : src/modules/demosaic.s
+
+# target to generate assembly for a file
+src/modules/demosaic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.s
+.PHONY : src/modules/demosaic.cpp.s
+
+src/modules/noise_reduction.obj: src/modules/noise_reduction.cpp.obj
+.PHONY : src/modules/noise_reduction.obj
+
+# target to build an object file
+src/modules/noise_reduction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj
+.PHONY : src/modules/noise_reduction.cpp.obj
+
+src/modules/noise_reduction.i: src/modules/noise_reduction.cpp.i
+.PHONY : src/modules/noise_reduction.i
+
+# target to preprocess a source file
+src/modules/noise_reduction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.i
+.PHONY : src/modules/noise_reduction.cpp.i
+
+src/modules/noise_reduction.s: src/modules/noise_reduction.cpp.s
+.PHONY : src/modules/noise_reduction.s
+
+# target to generate assembly for a file
+src/modules/noise_reduction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.s
+.PHONY : src/modules/noise_reduction.cpp.s
+
+src/modules/white_balance.obj: src/modules/white_balance.cpp.obj
+.PHONY : src/modules/white_balance.obj
+
+# target to build an object file
+src/modules/white_balance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj
+.PHONY : src/modules/white_balance.cpp.obj
+
+src/modules/white_balance.i: src/modules/white_balance.cpp.i
+.PHONY : src/modules/white_balance.i
+
+# target to preprocess a source file
+src/modules/white_balance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.i
+.PHONY : src/modules/white_balance.cpp.i
+
+src/modules/white_balance.s: src/modules/white_balance.cpp.s
+.PHONY : src/modules/white_balance.s
+
+# target to generate assembly for a file
+src/modules/white_balance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\isp_pipeline.dir\build.make CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.s
+.PHONY : src/modules/white_balance.cpp.s
+
 src/raw_image.obj: src/raw_image.cpp.obj
 .PHONY : src/raw_image.obj
 
@@ -215,6 +335,21 @@ help:
 	@echo ... src/image.obj
 	@echo ... src/image.i
 	@echo ... src/image.s
+	@echo ... src/isp_pipeline.obj
+	@echo ... src/isp_pipeline.i
+	@echo ... src/isp_pipeline.s
+	@echo ... src/modules/black_level.obj
+	@echo ... src/modules/black_level.i
+	@echo ... src/modules/black_level.s
+	@echo ... src/modules/demosaic.obj
+	@echo ... src/modules/demosaic.i
+	@echo ... src/modules/demosaic.s
+	@echo ... src/modules/noise_reduction.obj
+	@echo ... src/modules/noise_reduction.i
+	@echo ... src/modules/noise_reduction.s
+	@echo ... src/modules/white_balance.obj
+	@echo ... src/modules/white_balance.i
+	@echo ... src/modules/white_balance.s
 	@echo ... src/raw_image.obj
 	@echo ... src/raw_image.i
 	@echo ... src/raw_image.s

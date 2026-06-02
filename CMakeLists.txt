@@ -11,16 +11,21 @@ include_directories(include)
 include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(C:/LibRaw/LibRaw-0.22.1)
 
-link_directories(C:/LibRaw/LibRaw-0.22.1/lib)
+add_definitions(-DLIBRAW_NOTHREADS)
 
 add_executable(isp_pipeline 
     main.cpp
     src/image.cpp
     src/raw_image.cpp
+    src/isp_pipeline.cpp
+    src/modules/black_level.cpp
+    src/modules/white_balance.cpp
+    src/modules/demosaic.cpp
+    src/modules/noise_reduction.cpp
 )
 
 target_link_libraries(isp_pipeline 
     ${OpenCV_LIBS}
-    raw
+    C:/LibRaw/LibRaw-0.22.1/lib/libraw.a
     ws2_32
 )

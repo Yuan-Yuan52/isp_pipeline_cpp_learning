@@ -1,1 +1,1 @@
-CMakeFiles/isp_pipeline.dir/main.cpp.obj CMakeFiles/isp_pipeline.dir/src/image.cpp.obj CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj
+CMakeFiles/isp_pipeline.dir/main.cpp.obj CMakeFiles/isp_pipeline.dir/src/image.cpp.obj CMakeFiles/isp_pipeline.dir/src/raw_image.cpp.obj CMakeFiles/isp_pipeline.dir/src/isp_pipeline.cpp.obj CMakeFiles/isp_pipeline.dir/src/modules/black_level.cpp.obj CMakeFiles/isp_pipeline.dir/src/modules/white_balance.cpp.obj CMakeFiles/isp_pipeline.dir/src/modules/demosaic.cpp.obj CMakeFiles/isp_pipeline.dir/src/modules/noise_reduction.cpp.obj
