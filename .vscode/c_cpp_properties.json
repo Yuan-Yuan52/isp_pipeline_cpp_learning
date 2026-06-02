@@ -5,9 +5,12 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/opencv_final/include",
-                "C:/mingw64/include"
+                "C:/mingw64/include",
+                "C:/LibRaw/LibRaw-0.22.1"
             ],
-            "defines": [],
+            "defines": [
+                "LIBRAW_NOTHREADS"
+            ],
             "compilerPath": "C:/mingw64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
