@@ -13,30 +13,36 @@ int main() {
     }
     resize(img , img , Size(640,480));
 
-    //色彩轉換
-    Mat gray , hsv ;
-    cvtColor(img ,gray,COLOR_BGR2GRAY);
-    cvtColor(img ,hsv,COLOR_BGR2HSV);
-
-    //濾波
-    Mat blurred , denoised ; 
-    GaussianBlur(gray , blurred , Size(5,5) , 1.5);
-    bilateralFilter(img , denoised , 9 , 75 , 75 );
-
     //邊緣偵測
-    Mat edges ;
-    Canny (gray , edges , 50 , 150);
+    Mat Edge ;
+    Canny (img , Edge , 50 , 150 );
 
-    //存檔
-    imwrite("output_gray.jpg" , gray);
-    imwrite("output_hsv.jpg" , hsv);
-    imwrite("output_denoised.jpg" , denoised);
+    //定義kernel
+    Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3 ));
+
+    //eRosion
+    Mat Erosion ;
+    erode (Edge , Erosion ,kernel);
+
+    //Diation 
+    Mat Dilation ;
+    dilate (Edge , Dilation , kernel);
+
+    // Opening 開運算
+    Mat opened;
+    morphologyEx( Edge, opened, MORPH_OPEN, kernel);
+
+    // Closing 閉運算
+    Mat closed;
+    morphologyEx(Edge, closed, MORPH_CLOSE, kernel);
     
-    imshow("Original Image" , img);
-    imshow("Gray Image" , gray);
-    imshow("Gaussian Blurred Image" , blurred);
-    imshow("Bilateral Filtered Image" , denoised);
-    imshow("Canny Edges" , edges);
+    imshow("Original Image", img);
+    imshow("Edge Detection", Edge);
+    imshow("Erosion", Erosion);
+    imshow("Dilation", Dilation);
+    imshow("Opened", opened);
+    imshow("Closed", closed);
+
     waitKey(0); 
 
     return 0;
