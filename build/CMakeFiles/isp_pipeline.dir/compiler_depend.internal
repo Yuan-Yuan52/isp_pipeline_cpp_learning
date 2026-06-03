@@ -10,6 +10,11 @@ CMakeFiles/isp_pipeline.dir/main.cpp.obj
  C:/LibRaw/LibRaw-0.22.1/libraw/libraw_internal.h
  C:/LibRaw/LibRaw-0.22.1/libraw/libraw_types.h
  C:/LibRaw/LibRaw-0.22.1/libraw/libraw_version.h
+ C:/Users/user/program/C++_learning/include/isp_pipeline.h
+ C:/Users/user/program/C++_learning/include/modules/black_level.h
+ C:/Users/user/program/C++_learning/include/modules/demosaic.h
+ C:/Users/user/program/C++_learning/include/modules/noise_reduction.h
+ C:/Users/user/program/C++_learning/include/modules/white_balance.h
  C:/mingw64/include/c++/16.1.0/algorithm
  C:/mingw64/include/c++/16.1.0/array
  C:/mingw64/include/c++/16.1.0/backward/auto_ptr.h

@@ -9,6 +9,11 @@ CMakeFiles/isp_pipeline.dir/main.cpp.obj: C:/Users/user/program/C++_learning/mai
   C:/LibRaw/LibRaw-0.22.1/libraw/libraw_internal.h \
   C:/LibRaw/LibRaw-0.22.1/libraw/libraw_types.h \
   C:/LibRaw/LibRaw-0.22.1/libraw/libraw_version.h \
+  C:/Users/user/program/C++_learning/include/isp_pipeline.h \
+  C:/Users/user/program/C++_learning/include/modules/black_level.h \
+  C:/Users/user/program/C++_learning/include/modules/demosaic.h \
+  C:/Users/user/program/C++_learning/include/modules/noise_reduction.h \
+  C:/Users/user/program/C++_learning/include/modules/white_balance.h \
   C:/mingw64/include/c++/16.1.0/algorithm \
   C:/mingw64/include/c++/16.1.0/array \
   C:/mingw64/include/c++/16.1.0/backward/auto_ptr.h \
@@ -3162,6 +3167,8 @@ C:/mingw64/include/c++/16.1.0/bits/locale_conv.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512dqintrin.h:
 
+C:/Users/user/program/C++_learning/include/modules/demosaic.h:
+
 C:/LibRaw/LibRaw-0.22.1/libraw/libraw_const.h:
 
 C:/mingw64/include/c++/16.1.0/bits/locale_classes.tcc:
@@ -3186,6 +3193,10 @@ C:/LibRaw/LibRaw-0.22.1/libraw/libraw_alloc.h:
 
 C:/mingw64/include/c++/16.1.0/bits/charconv.h:
 
+C:/Users/user/program/C++_learning/include/modules/noise_reduction.h:
+
+C:/mingw64/include/c++/16.1.0/bits/stl_tree.h:
+
 C:/opencv_final/include/opencv2/photo.hpp:
 
 C:/LibRaw/LibRaw-0.22.1/libraw/libraw_datastream.h:
@@ -3209,6 +3220,26 @@ C:/mingw64/include/c++/16.1.0/tr1/gamma.tcc:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h:
 
 C:/LibRaw/LibRaw-0.22.1/libraw/libraw_version.h:
+
+C:/mingw64/include/c++/16.1.0/bits/locale_classes.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/rpcdce.h:
+
+C:/mingw64/include/c++/16.1.0/stdlib.h:
+
+C:/Users/user/program/C++_learning/include/isp_pipeline.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/wingdi.h:
+
+C:/mingw64/include/c++/16.1.0/bits/deque.tcc:
+
+C:/Users/user/program/C++_learning/include/modules/black_level.h:
+
+C:/mingw64/include/c++/16.1.0/vector:
+
+C:/mingw64/include/c++/16.1.0/bits/functional_hash.h:
+
+C:/Users/user/program/C++_learning/include/modules/white_balance.h:
 
 C:/mingw64/include/c++/16.1.0/algorithm:
 
@@ -3294,21 +3325,11 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/tbmintrin.h:
 
 C:/mingw64/include/c++/16.1.0/bits/cpp_type_traits.h:
 
-C:/mingw64/include/c++/16.1.0/bits/nested_exception.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/rpc.h:
-
 C:/mingw64/include/c++/16.1.0/bits/cxxabi_forced.h:
 
 C:/mingw64/include/c++/16.1.0/map:
 
 C:/mingw64/include/c++/16.1.0/bits/cxxabi_init_exception.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/wingdi.h:
-
-C:/mingw64/include/c++/16.1.0/bits/deque.tcc:
-
-C:/mingw64/include/c++/16.1.0/bits/new_throw.h:
 
 C:/mingw64/include/c++/16.1.0/bits/enable_special_members.h:
 
@@ -3324,17 +3345,9 @@ C:/mingw64/include/c++/16.1.0/bits/exception_defines.h:
 
 C:/mingw64/include/c++/16.1.0/bits/functexcept.h:
 
-C:/Users/user/program/C++_learning/include/modules/white_balance.h:
-
-C:/mingw64/include/c++/16.1.0/bits/functional_hash.h:
-
 C:/mingw64/include/c++/16.1.0/bits/hash_bytes.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512fintrin.h:
-
-C:/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h:
-
-C:/mingw64/include/c++/16.1.0/bits/new_except.h:
 
 C:/mingw64/include/c++/16.1.0/bits/hashtable.h:
 
@@ -3343,10 +3356,6 @@ C:/mingw64/include/c++/16.1.0/bits/hashtable_policy.h:
 C:/mingw64/include/c++/16.1.0/bits/invoke.h:
 
 C:/mingw64/include/c++/16.1.0/bits/istream.tcc:
-
-C:/mingw64/include/c++/16.1.0/bits/locale_classes.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/rpcdce.h:
 
 C:/mingw64/include/c++/16.1.0/bits/stl_algo.h:
 
@@ -3366,8 +3375,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vp2intersectvlintrin.
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/avx512vpopcntdqvlintrin.h:
 
-C:/mingw64/include/c++/16.1.0/bits/node_handle.h:
-
 C:/mingw64/include/c++/16.1.0/bits/localefwd.h:
 
 C:/mingw64/include/c++/16.1.0/bits/memoryfwd.h:
@@ -3378,11 +3385,23 @@ C:/mingw64/x86_64-w64-mingw32/include/math.h:
 
 C:/mingw64/include/c++/16.1.0/bits/move.h:
 
+C:/mingw64/include/c++/16.1.0/bits/nested_exception.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/rpc.h:
+
 C:/opencv_final/include/opencv2/ml/ml.inl.hpp:
 
 C:/mingw64/include/c++/16.1.0/bits/new_allocator.h:
 
 C:/mingw64/include/c++/16.1.0/functional:
+
+C:/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/mingw64/include/c++/16.1.0/bits/new_except.h:
+
+C:/mingw64/include/c++/16.1.0/bits/new_throw.h:
+
+C:/mingw64/include/c++/16.1.0/bits/node_handle.h:
 
 C:/mingw64/include/c++/16.1.0/bits/ostream.h:
 
@@ -3535,10 +3554,6 @@ C:/mingw64/x86_64-w64-mingw32/include/rpcnsip.h:
 C:/mingw64/include/c++/16.1.0/bits/stl_relops.h:
 
 C:/mingw64/include/c++/16.1.0/bits/stl_set.h:
-
-C:/Users/user/program/C++_learning/include/modules/noise_reduction.h:
-
-C:/mingw64/include/c++/16.1.0/bits/stl_tree.h:
 
 C:/opencv_final/include/opencv2/core/saturate.hpp:
 
@@ -3738,19 +3753,17 @@ C:/mingw64/include/c++/16.1.0/set:
 
 C:/opencv_final/include/opencv2/objdetect/aruco_dictionary.hpp:
 
+C:/mingw64/x86_64-w64-mingw32/include/wincrypt.h:
+
 C:/mingw64/include/c++/16.1.0/sstream:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/vaesintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/threadpoolapiset.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/wincrypt.h:
-
 C:/opencv_final/include/opencv2/flann/hierarchical_clustering_index.h:
 
 C:/mingw64/include/c++/16.1.0/stdexcept:
-
-C:/mingw64/include/c++/16.1.0/stdlib.h:
 
 C:/mingw64/include/c++/16.1.0/string:
 
@@ -3803,10 +3816,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/cetintrin.h:
 C:/mingw64/x86_64-w64-mingw32/include/errno.h:
 
 C:/mingw64/include/c++/16.1.0/unordered_map:
-
-C:/Users/user/program/C++_learning/include/modules/black_level.h:
-
-C:/mingw64/include/c++/16.1.0/vector:
 
 C:/mingw64/include/c++/16.1.0/x86_64-w64-mingw32/bits/basic_file.h:
 
@@ -4465,10 +4474,6 @@ C:/opencv_final/include/opencv2/video.hpp:
 C:/opencv_final/include/opencv2/video/background_segm.hpp:
 
 C:/opencv_final/include/opencv2/video/tracking.hpp:
-
-C:/Users/user/program/C++_learning/include/isp_pipeline.h:
-
-C:/Users/user/program/C++_learning/include/modules/demosaic.h:
 
 C:/Users/user/program/C++_learning/src/modules/black_level.cpp:
 
