@@ -5,7 +5,7 @@ using namespace std;
 using namespace cv;
 
 ISPPipeline::ISPPipeline() {
-    // 初始化各個處理模組
+
     cout << "Initializing ISP Pipeline..." << endl;
 }
 
@@ -28,6 +28,10 @@ Mat ISPPipeline::process(const std::string& raw_file) {
     int raw_height = raw.imgdata.sizes.raw_height;
     int bl = raw.imgdata.color.black;
 
+    float r_gain = raw.imgdata.color.cam_mul[0];
+    float g_gain = raw.imgdata.color.cam_mul[1];
+    float b_gain = raw.imgdata.color.cam_mul[2];
+
     Mat bayer (height,width,CV_16UC1);
     for (int y=0 ; y < height ; y++){
         for (int x=0 ; x < width ; x++){
@@ -35,7 +39,8 @@ Mat ISPPipeline::process(const std::string& raw_file) {
         }
     }
 
-    // 建立 Bayer Mat 之後加這行
+    //bayer
+
     Mat bayer_small;
     resize(bayer, bayer_small, Size(), 0.1,0.1);
 
@@ -43,15 +48,24 @@ Mat ISPPipeline::process(const std::string& raw_file) {
 
     Mat blc_level_result = black_level_.process(bayer_small , bl);
 
-    //visualize 
+    //step 2 white_bal
 
-    Mat before,after ;
-    normalize(bayer_small,before, 0 , 255 ,NORM_MINMAX,CV_8UC1);
-    normalize(blc_level_result , after , 0 , 255 ,NORM_MINMAX,CV_8UC1);
+    r_gain /= g_gain ; 
+    b_gain /= g_gain ;
+    g_gain /= 1.0f ;
 
-    imshow ("before BLC",before);
-    imshow ("After BLC",after);
-    
+    Mat White_bal_result = white_balance_.process(bayer_small , r_gain , g_gain , b_gain);
+
+
+        //visualize 
+
+    Mat before_8bit, after_8bit;
+    blc_level_result.convertTo(before_8bit, CV_8UC1, 1.0/64.0);
+    White_bal_result.convertTo(after_8bit, CV_8UC1, 1.0/64.0);
+
+    imshow("After BLC", before_8bit);
+    imshow("After WB", after_8bit);
+        
     waitKey(0);
 
     raw.recycle();

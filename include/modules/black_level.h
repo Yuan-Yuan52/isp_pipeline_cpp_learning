@@ -5,4 +5,4 @@ class Blacklevel {
     public:
         Blacklevel();
         cv::Mat process (const cv::Mat& input , int black_level);
-};  
+}; 
